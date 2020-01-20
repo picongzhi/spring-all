@@ -1,0 +1,11 @@
+DROP TABLE `student`;
+
+CREATE TABLE `student` (
+  `no` VARCHAR(16) NOT NULL,
+  `name` VARCHAR(16) NOT NULL,
+  `sex` CHAR(2) NOT NULL
+);
+
+INSERT INTO STUDENT VALUES ('001', 'picongzhi', 'M');
+INSERT INTO STUDENT VALUES ('002', 'pcz', 'M');
+INSERT INTO STUDENT VALUES ('003', 'pp', 'F');
